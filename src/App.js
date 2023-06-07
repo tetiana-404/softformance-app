@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <header className="header">
-        <img src={logo} className="logo" alt="logo" />
+        <a href="SoftFormance.com"><img src={logo} className="logo" alt="logo" /></a>
       </header>
       <main className="main">
         <div className="container">
@@ -52,7 +52,7 @@ function App() {
               you!
             </p>
 
-            <a className="btn-1">leave your feedback</a>
+            <a className="btn-1" href="SoftFormance.com">leave your feedback</a>
           </section>
         </div>
       </main>
